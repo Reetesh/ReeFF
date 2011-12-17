@@ -1,0 +1,99 @@
+br
+{ 
+margin: 0px;
+padding: 2px;   
+} 
+
+a.twtb {
+       text-decoration: none;
+       color: black;
+}
+a.twtb:visited {
+       text-decoration: none;
+       color: grey;
+}
+
+a.twtb:hover {
+       text-decoration: none;
+       opacity: 1;
+       color: black;
+}
+
+div.twtb {
+           
+           margin-left: auto;
+	   margin-right: auto;
+           border-color: #666;
+           -webkit-border-radius: 10px; 
+           -moz-border-radius: 10px;
+           line-height: 20px;
+           width: 500px;
+           padding: 10px;
+           border-bottom-style:dashed;
+           border-bottom-width:2px;
+           font-size: 12pt;
+}
+
+.main {
+	background-color: #666; 
+        color:gold;
+	line-height: 30px; 
+	width: 600px; 
+	text-align: center;
+        -moz-border-radius-bottomleft: 10px;
+        -moz-border-radius-topright: 10px;
+        -webkit-border-radius-bottomleft: 10px;
+        -webkit-border-radius-topright: 10px;
+
+}
+
+body
+{
+	background-image :url('skybg.png');
+	width:100%;
+	height:100%;
+	background-repeat:repeat-x;
+        background-attachment:fixed;
+	z-index: -2;
+}
+
+.scloud
+{
+	background-image: url('cloud.png');
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	top: 10px;
+	right: 0px;
+	z-index: -1;
+}
+
+.mbody
+{
+	-webkit-border-radius: 10px; 
+        -moz-border-radius: 10px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+        
+	height: 1000;
+	background: white;
+	z-index: 1;
+}
+
+.grass
+{
+	position:fixed; 
+	bottom:0px;
+	left:0px;
+	overflow: auto;
+	width: 100%;
+	min-height:100px;
+	background-image: url('grass.png');
+	background-repeat: repeat-x;
+	z-index: 2;
+
+}
